@@ -38,7 +38,7 @@ class TjugoEtt:
             else:
                 poäng += kort  # Lägg till kortets värde
 
-        # Lägg till poäng för ess/14 om det inte gör att man bommar, alltså över 21
+        # Lägg till poäng för ess det inte överstiger 21
         while ess > 0 and poäng + 14 <= 21:
             poäng += 14
             ess -= 1
