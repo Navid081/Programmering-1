@@ -45,7 +45,7 @@ class TjugoEtt:
         return poäng
 
     def spela(self):
-        # Klassen som kör spelet
+        # Metoden som kör spelet
         print(" --- 21 ---")
         self.kortlek = self.skapa_kortlek()
         
