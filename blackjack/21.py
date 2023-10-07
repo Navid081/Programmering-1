@@ -1,3 +1,5 @@
+# Inte använt chatgpt i samma utsträckning i denna version
+
 import random
 
 # Skapa en klass för Blackjack-spelet
