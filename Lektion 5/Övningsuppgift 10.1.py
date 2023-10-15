@@ -29,7 +29,7 @@ while True:
     choice = input(">: ").upper()
     if choice == "E":
         print("Exiting program...")
-        time.sleep(5)
+        time.sleep(3)
         if os.name == "nt":
             os.system("cls")
         elif os.name == "posix":
