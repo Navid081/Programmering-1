@@ -62,8 +62,9 @@ while True:
                 content = csv.reader(f, delimiter=",")
                 for row in content:
                     print(", ".join(row))
-                    input("\nPress enter to continue\n")
-        
+            print("-" * ui_width)
+            input("Press enter to clear")
+            
         elif choice == "exit":
             from time import sleep
             print("Avslutar programmet...")
